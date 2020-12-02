@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Cyberverse;
+    src: url(./fonts/Cyberverse/Cyberverse.otf);
+}
+
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0;
+    padding:0;
+    border: none;
+    
+}
+
+.clock {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46,168,217);
+    color: rgb(42,43,45);
+    font-family: Cyberverse;
+    font-size: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    
+}
